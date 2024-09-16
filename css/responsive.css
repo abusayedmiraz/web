@@ -1,0 +1,64 @@
+/* ====================== extara small device ==================== */
+@media  (max-width: 575.98px) {
+    /* ================== navbar part start ============== */
+    #navbar{
+        z-index: 999;
+    }
+    #navbar .navLogo {
+        width: 115px;
+    }
+    #navbar .navButton{
+        width: 30px;
+        height: 30px;
+        color: white;
+        border: white;
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        padding:0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #navbar ul {
+        margin: 0 auto;
+    }
+    #navbar ul li a {
+        font: 500 13px var(--common-font);
+    }
+    #navbar .btnWrap a {
+        width: 132px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    .resMenu{
+        width: 100%;
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #navbar .btnWrap{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #navbar .btnWrap a {
+        width: 132px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    #navbar .btnWrap a {
+        font: 500 11px var(--common-font);
+        padding: 5px 40px 3px;
+    }
+    /* ---------------- navbar part end ----------------- */
+}
